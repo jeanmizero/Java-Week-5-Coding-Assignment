@@ -1,9 +1,7 @@
-
-public class Logger {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+// 1
+public interface Logger {
+//2
+	public void Log(String str);
+	public void Error(String str);
+	
 }
